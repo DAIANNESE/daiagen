@@ -81,6 +81,7 @@ header {
 
 
 
+
 }
 
 .header__titulo {
@@ -88,7 +89,7 @@ header {
     text-align: center;
     color: #f5b5cc;
 
-    padding-top: 1rem;
+
     margin-bottom: 1rem;
 
 }
@@ -104,7 +105,11 @@ header {
 }
 
 .main {
+    border-radius: 50%;
+
     padding: 0;
+    margin: 1rem;
+
 }
 
 .seccion1 {
@@ -167,14 +172,15 @@ header {
 /* Seccion 3 */
 
 .seccion3 {
-    padding: 0;
+    padding: 1rem;
 }
 
 .seccion3__lista {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1rem;
 
 
 
@@ -200,13 +206,17 @@ header {
     text-decoration: none;
     font-family: 'Franklin Gothic Medium';
     color: white;
+
 }
 
 /* Seccion 4 */
 
 .seccion4 {
-    margin: 2rem;
 
+    margin: 0;
+    padding: 0;
+
+    border: solid 10px blue
 }
 
 .carousel-control-prev,
@@ -228,9 +238,11 @@ header {
 
 
 
+
 .seccion5 {
     padding: 1rem;
     color: beige;
+    background-color: #f5b5cc;
 
 
 
@@ -240,7 +252,7 @@ header {
 .color__h1 {
 
     background-color: #f5b5cc;
-    color: rgb(102, 102, 173);
+    color: white;
     border-radius: 0.5rem;
     border: solid whitesmoke;
 
