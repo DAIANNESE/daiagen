@@ -42,10 +42,11 @@ ul {
 
 header {
 
-    padding: 2rem;
+
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 1rem;
 
 }
 
@@ -56,13 +57,13 @@ header {
 .main,
 .footer {
     max-width: 600px;
-    margin: 0, auto;
+    margin: 0 auto;
 }
 
 .main {
 
     min-height: 100vh;
-    padding: 2rem;
+
 
 }
 
@@ -78,6 +79,8 @@ header {
 
 
 
+
+
 }
 
 .header__titulo {
@@ -85,8 +88,9 @@ header {
     text-align: center;
     color: #f5b5cc;
 
+    padding-top: 1rem;
+    margin-bottom: 1rem;
 
-    margin-bottom: 0rem;
 }
 
 
@@ -95,17 +99,23 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
+    font-style: italic;
     font-size: 20px;
-    margin-bottom: 0;
 }
 
+.main {
+    padding: 0;
+}
 
+.seccion1 {
+    padding: 0rem;
+}
 
 .seccion1__lista {
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    margin: 2rem;
+    margin: 1rem;
 
 
 }
@@ -138,8 +148,9 @@ header {
 }
 
 .seccion2 {
-    padding: 1rem;
-    border-radius: 0.5rem;
+
+
+    padding-bottom: 1rem;
 }
 
 .seccion2__iframe {
@@ -150,22 +161,22 @@ header {
 
 
 
+
 }
 
 /* Seccion 3 */
 
 .seccion3 {
-    padding: 1rem;
-
+    padding: 0;
 }
 
 .seccion3__lista {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 0;
+    justify-content: space-between;
+
+
 
 }
 
@@ -188,14 +199,14 @@ header {
     text-transform: uppercase;
     text-decoration: none;
     font-family: 'Franklin Gothic Medium';
-    color: #f5b5cc;
-
+    color: white;
 }
 
 /* Seccion 4 */
 
 .seccion4 {
-    padding: 1rem;
+    margin: 2rem;
+
 }
 
 .carousel-control-prev,
@@ -215,12 +226,7 @@ header {
 
 }
 
-.seccion4__jorge {
-    display: block;
 
-    border-radius: 0.5rem;
-
-}
 
 .seccion5 {
     padding: 1rem;
@@ -292,27 +298,30 @@ header {
 }
 
 .footer {
-
-
-
     display: flex;
-
     flex-direction: column;
-
-    justify-content: center;
+    justify-content: space-evenly;
 
     align-items: center;
 
+    padding-bottom: 2rem;
 
 
 }
 
-.footer__descripcion {
-    font-family: 'Franklin Gothic Medium';
-    color: white;
 
+
+.footer__descripcion {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
     text-align: center;
-    margin-bottom: 0px;
+    font-style: italic;
+    font-size: 20px;
+    padding-bottom: 1rem;
+
+
+
 
 
 
@@ -323,8 +332,12 @@ header {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-
     border: solid whitesmoke;
+
+
+
+
+
 }
 
 /*medias querys*/
